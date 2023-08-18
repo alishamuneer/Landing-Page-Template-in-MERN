@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  height: 100%;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0;
+  margin: 20px 20px 0 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.box-tran {
+  transition: all 0.75s ease 0s, opacity 750ms ease 0s;
+}
+
+.slider-tran {
+  transition: 750ms all ease-in-out
+}
+
+.pic1 {
+  background-image: url('./images/p2.jpg')
+}
+
+.pic2 {
+  background-image: url('./images/p3.jpeg')
+}
+
+.pic3 {
+  background-image: url('./images/p4.jpg')
+}
+
+.pic4 {
+  background-image: url('./images/p5.jpeg')
+}
+
+.pic5 {
+  background-image: url('./images/p6.jpeg')
+}
+
+.pic6 {
+  background-image: url('./images/p7.jpeg')
+}
+
+.h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: red
+}
+
+.stoke {
+  text-shadow: -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px -1px 0 rgb(255, 255, 255);
+
+}
